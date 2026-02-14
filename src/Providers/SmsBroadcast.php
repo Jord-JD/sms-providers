@@ -1,8 +1,8 @@
 <?php
 
-namespace DivineOmega\SmsProviders\Providers;
+namespace JordJD\SmsProviders\Providers;
 
-use DivineOmega\SmsProviders\Interfaces\ProviderInterface;
+use JordJD\SmsProviders\Interfaces\ProviderInterface;
 
 class SmsBroadcast extends BaseProvider implements ProviderInterface
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace DivineOmega\SmsProviders;
+namespace JordJD\SmsProviders;
 
-use DivineOmega\Countries\Country;
-use DivineOmega\SmsProviders\Interfaces\ProviderInterface;
-use DivineOmega\SmsProviders\Providers\AmazonSNS;
-use DivineOmega\SmsProviders\Providers\SmsBroadcast;
-use DivineOmega\SmsProviders\Providers\Textlocal;
-use DivineOmega\SmsProviders\Providers\Twilio;
+use JordJD\Countries\Country;
+use JordJD\SmsProviders\Interfaces\ProviderInterface;
+use JordJD\SmsProviders\Providers\AmazonSNS;
+use JordJD\SmsProviders\Providers\SmsBroadcast;
+use JordJD\SmsProviders\Providers\Textlocal;
+use JordJD\SmsProviders\Providers\Twilio;
 
 class Providers
 {

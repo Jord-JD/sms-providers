@@ -1,6 +1,6 @@
 <?php
 
-namespace DivineOmega\SmsProviders\Interfaces;
+namespace JordJD\SmsProviders\Interfaces;
 
 interface ProviderInterface
 {

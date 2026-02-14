@@ -4,11 +4,11 @@
   "license": "LGPL-3.0-only",
   "require": {
     "php": ">=7.1",
-    "divineomega/php-countries": "^2.1.3"
+    "jord-jd/php-countries": "^4.0"
   },
   "autoload": {
     "psr-4": {
-      "DivineOmega\\SmsProviders\\": "./src/"
+      "JordJD\\SmsProviders\\": "./src/"
     }
   },
   "replace": {
@@ -16,7 +16,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "2.0-dev"
+      "dev-master": "3.0-dev"
     }
   }
 }

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace DivineOmega\SmsProviders\Providers;
+namespace JordJD\SmsProviders\Providers;
 
-use DivineOmega\Countries\Countries;
-use DivineOmega\SmsProviders\Utils\Providers;
-use DivineOmega\SmsProviders\Interfaces\ProviderInterface;
+use JordJD\Countries\Countries;
+use JordJD\SmsProviders\Utils\Providers;
+use JordJD\SmsProviders\Interfaces\ProviderInterface;
 
 abstract class BaseProvider implements ProviderInterface
 {
