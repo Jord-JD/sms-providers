@@ -1,14 +1,22 @@
 {
-    "name": "divineomega/sms-providers",
-    "description": "Provides data on popular SMS providers",
-    "license": "LGPL-3.0-only",
-    "require": {
-        "php": ">=7.1",
-        "divineomega/php-countries": "^2.1.3"
-    },
-    "autoload": {
-        "psr-4": {
-            "DivineOmega\\SmsProviders\\": "./src/"
-        }
+  "name": "jord-jd/sms-providers",
+  "description": "Provides data on popular SMS providers",
+  "license": "LGPL-3.0-only",
+  "require": {
+    "php": ">=7.1",
+    "divineomega/php-countries": "^2.1.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "DivineOmega\\SmsProviders\\": "./src/"
     }
+  },
+  "replace": {
+    "divineomega/sms-providers": "self.version"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0-dev"
+    }
+  }
 }

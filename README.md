@@ -9,7 +9,7 @@ following Composer command from the root of your
 project.
 
 ```bash
-composer require divineomega/sms-providers
+composer require jord-jd/sms-providers
 ```
 
 ## Usage
