@@ -1,5 +1,10 @@
 # SMS Providers
 
+> [!WARNING]
+> This package is retired. Its provider coverage tables are static and can become inaccurate as carrier routes, regulatory rules, and provider availability change.
+>
+> New applications should query the chosen SMS provider's current coverage/pricing API or documentation at decision time. Existing v3 releases remain available only for legacy applications that have independently validated the bundled data.
+
 This library provides data on popular SMS providers.
 
 ## Installation
